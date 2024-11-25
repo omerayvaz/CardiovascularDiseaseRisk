@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-Implementing a Neural Network for Cardiovascular Disease Risk Prediction without Utilizing Deep Learning Libraries.
+Implementing a Neural Network from scratch for Cardiovascular Disease Risk Prediction without using Deep Learning Libraries.
 
 
 
@@ -22,7 +22,7 @@ Implementing a Neural Network for Cardiovascular Disease Risk Prediction without
 
 ## Proje Ekibi (Project Team)
 
-* Ömer Ayvaz
+* Ömer Emircan Ayvaz
 
 * Muhammet Eren Gür
 
