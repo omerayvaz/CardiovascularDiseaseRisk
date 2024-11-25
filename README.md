@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/omer300/ANN_Coursework/tree/main"><img src="https://github.com/omer300/ANN_Coursework/blob/main/Media/img/KOUlogo.png" alt="Cardiovascular Disease Risk Prediction" width="200"></a>
+  <a href="https://github.com/omerayvaz/ANN_Coursework/tree/main"><img src="https://github.com/omerayvaz/ANN_Coursework/blob/main/Media/img/KOUlogo.png" alt="Cardiovascular Disease Risk Prediction" width="200"></a>
   <br>
   <br>
    Cardiovascular Disease Risk Prediction
