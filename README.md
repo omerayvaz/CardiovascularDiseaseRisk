@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-Implementing a Neural Network from scratch for Cardiovascular Disease Risk Prediction without using Deep Learning Libraries.
+Implementing a Neural Network from scratch for Cardiovascular Disease Risk Prediction without using Neural Network Libraries.
 
 
 
