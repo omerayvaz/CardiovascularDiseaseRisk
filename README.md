@@ -29,9 +29,7 @@ The following tools and libraries were utilized in the development of this proje
 - **Jupyter Notebook:** For prototyping and interactive development.
 
 
-## 📂 3. Dataset
-
-Dataset: [Cardiovascular-Disease-Dataset](https://www.kaggle.com/datasets/akshatshaw7/cardiovascular-disease-dataset) 
+## 📂 3. Dataset : [Cardiovascular-Disease-Dataset](https://www.kaggle.com/datasets/akshatshaw7/cardiovascular-disease-dataset)
 
 ### 🔍 3.1. Dataset Features
 
@@ -59,54 +57,19 @@ The dataset contains the following features related to cardiovascular diseases:
 
 ## 🤖 4. Model
 
-### 4.1. Model Architecture
-
-- **Input Layer:** Number of neurons equal to the number of features in the dataset.
-- **Hidden Layers:** Configurable number of layers using *ReLU activation function*.
-- **Output Layer:** Binary classification using a *Sigmoid activation function*.
-
-### 4.2. Optimization and Weight Initialization
-
-- **Optimization Algorithm:** *Adam optimizer* with:
-  - β₁ = 0.9
-  - β₂ = 0.999
-  - ε = 1e-8
-  - Learning Rate = 0.001
-- **Weight Initialization:** Using *Xavier* and *He* methods to prevent gradient vanishing.
-
-### 4.3. Training Process
-
-- **Loss Function:** *Binary Cross Entropy (BCE)*.
-- **Forward and Backward Propagation:** Updating the model at each epoch during training.
-- **Performance Monitoring:** Recording and visualizing training and validation losses.
-
 ---
 
-## 📊 5. Results
-
-### 📈 5.1. Performance Metrics
-
-- **Accuracy:** *72.9%*
-- **F1 Score:** *0.727*
-
-<img src="https://github.com/omerayvaz/ANN_Coursework/blob/main/Media/ConfusionMatrix.png" alt="Confusion Matrix" width="600">
-
-- **Confusion Matrix:** Displays the model's classification accuracy (*True Positives, True Negatives, False Positives, False Negatives*).
-
-### 📉 5.2. Visualizations
-
-<img src="https://github.com/omerayvaz/ANN_Coursework/blob/main/Media/CorrelationMatrix.png" alt="Correlation Matrix" width="600">
-
-- **Training and Validation Losses:** Loss curves plotted across epochs.
-- **Correlation Matrix:** Demonstrates the relationships between features used in the model.
-
-### 💡 5.3. Insights
+## 💡 5. Insights
 
 - The ANN model demonstrated reasonable accuracy in predicting cardiovascular disease.
-- *Xavier and He weight initialization methods* effectively mitigated the gradient vanishing issue.
+- *Xavier[cite] and He[cite] weight initialization methods* effectively mitigated the gradient vanishing issue.
 - Model performance can be further improved through careful hyperparameter tuning.
 
 ---
+
+## 6. References
+
+
 
 ## **Project Team**
 
