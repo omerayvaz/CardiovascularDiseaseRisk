@@ -12,7 +12,7 @@
 
 This project focuses on designing and implementing an Artificial Neural Network (ANN) model from scratch to accurately predict cardiovascular disease risk. For further details and to review the presentation in Turkish, click the link below:
 
-[📂**View the Turkish Presentation**](https://github.com/omerayvaz/ANN_Coursework/blob/main/CardiovascularDiseaseRiskPredictionUsingArtificialNeuralNetworks.pdf)
+[📂*View the Turkish Presentation...*](https://github.com/omerayvaz/ANN_Coursework/blob/main/CardiovascularDiseaseRiskPredictionUsingArtificialNeuralNetworks.pdf)
 
 
 ---
@@ -30,6 +30,8 @@ The following tools and libraries were utilized in the development of this proje
 
 
 ## 📂 3. Dataset : [Cardiovascular-Disease-Dataset](https://www.kaggle.com/datasets/akshatshaw7/cardiovascular-disease-dataset)
+
+*📌 Dataset : [Cardiovascular Disease Dataset on Kaggle...](https://www.kaggle.com/datasets/akshatshaw7/cardiovascular-disease-dataset)*
 
 ### 🔍 3.1. Dataset Features
 
@@ -57,27 +59,37 @@ The dataset contains the following features related to cardiovascular diseases:
 
 ## 🤖 4. Model
 
----
+A **dynamic structure** can be created, allowing flexibility in configuring the number of layers, neurons, and activation functions based on the task or dataset. This approach ensures adaptability for different use cases.  
 
-## 💡 5. Insights
+#### **Example in Our Case:**
 
-- The ANN model demonstrated reasonable accuracy in predicting cardiovascular disease.
-- *Xavier[cite] and He[cite] weight initialization methods* effectively mitigated the gradient vanishing issue.
-- Model performance can be further improved through careful hyperparameter tuning.
+```python
+# Define the neural network
+nn = NeuralNetwork(input_size=9)
 
----
+# Add hidden layers with ReLU activation
+nn.add_hidden_layer('relu', 32)
+nn.add_hidden_layer('relu', 128)
+nn.add_hidden_layer('relu', 256)
+nn.add_hidden_layer('relu', 64)
 
-## 6. References
+# Output layer with Sigmoid activation
+nn.add_hidden_layer('sigmoid', 1)
+
+# Train the model
+costs = nn.train(X_train_transposed, y_train, X_val_transposed, y_val, epochs=300)
+```
 
 
+## **👥 Project Team**
 
-## **Project Team**
+📩📞 *For communication, feel free to reach out through the social media links provided on **our GitHub profiles.***
 
-- **[Ömer Emircan Ayvaz](https://www.linkedin.com/in/omer-e-ayvaz/)**
-- **[Muhammet Eren Gür](https://www.linkedin.com/in/muhammet-eren-g%C3%BCr-a88aba267/)**
-- **[Zeynep Aslı Erhan](https://www.linkedin.com/in/zeynepaslierhan/)**
-- **[Eren Sezer](https://www.linkedin.com/in/eren-sezer-2706791b7/)**
-- **[Ömer Faruk Ulusoy](https://www.linkedin.com/in/omer-ulusoy/)**
-- **[Eren Çalbay](https://www.linkedin.com/in/erencalbay/)**
-- **[Fatih Özen](https://www.linkedin.com/in/fatih-%C3%B6zen/)**
-- **[Mehmet Ali Akdoğan](https://www.linkedin.com/in/mehmet-ali-akdogan/)**
+- **[Ömer Emircan Ayvaz](https://github.com/omerayvaz)**
+- **[Muhammet Eren Gür](https://github.com/Mali3215)**
+- **[Zeynep Aslı Erhan](https://github.com/zeynepaslierhan)**
+- **[Eren Sezer](https://github.com/Erensz)**
+- **[Ömer Faruk Ulusoy](https://github.com/omerulusoy41)**
+- **[Eren Çalbay](https://github.com/erencalbay)**
+- **[Fatih Özen](https://github.com/Fatihozn)**
+- **[Mehmet Ali Akdoğan](https://github.com/MuhammetErenGur)**
