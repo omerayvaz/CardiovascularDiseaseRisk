@@ -29,7 +29,7 @@ The following tools and libraries were utilized in the development of this proje
 - **Jupyter Notebook:** For prototyping and interactive development.
 
 
-## 📂 3. Dataset : [Cardiovascular-Disease-Dataset](https://www.kaggle.com/datasets/akshatshaw7/cardiovascular-disease-dataset)
+## 📂 3. Dataset
 
 *📌 Dataset : [Cardiovascular Disease Dataset on Kaggle...](https://www.kaggle.com/datasets/akshatshaw7/cardiovascular-disease-dataset)*
 
