@@ -8,11 +8,16 @@
   <br>
 </h1>
 
-*Implementing a Neural Network from scratch for Cardiovascular Disease Risk Prediction without using Neural Network Libraries.*
+*Developing a Neural Network from scratch to predict cardiovascular disease risk without relying on prebuilt Neural Network libraries.*
+
+This project focuses on designing and implementing an Artificial Neural Network (ANN) model from scratch to accurately predict cardiovascular disease risk. For further details and to review the presentation in Turkish, click the link below:
+
+[📂**View the Turkish Presentation**](https://github.com/omerayvaz/ANN_Coursework/blob/main/Cardiovascular%20DiseaseRiskPredictionUsingArtificialNeuralNetworks.pdf)
+
 
 ---
 
-## **Araçlar (Tools)**
+## 🛠️ Araçlar (Tools)
 
 The following tools and libraries were utilized in the development of this project:
 
@@ -24,9 +29,9 @@ The following tools and libraries were utilized in the development of this proje
 - **Jupyter Notebook:** For prototyping and interactive development.
 
 
-## **3. Dataset**
+## 📂 3. Dataset
 
-### **3.1. Dataset Features**
+### 🔍 3.1. Dataset Features
 
 The dataset contains the following features related to cardiovascular diseases:
 
@@ -36,7 +41,7 @@ The dataset contains the following features related to cardiovascular diseases:
 - **Smoking, Alcohol Intake, Physical Activity:** Lifestyle indicators.
 - **Target Variable (Cardio):** Presence or absence of the disease (0/1).
 
-### **3.2. Data Preprocessing**
+### ⚙️ 3.2. Data Preprocessing
 
 <img src="https://github.com/omerayvaz/ANN_Coursework/blob/main/Media/Dataset.png" alt="Dataset Visualization" width="600">
 
@@ -50,15 +55,15 @@ The dataset contains the following features related to cardiovascular diseases:
 
 ---
 
-## **4. Model**
+## 🤖 4. Model
 
-### **4.1. Model Architecture**
+### 4.1. Model Architecture
 
 - **Input Layer:** Number of neurons equal to the number of features in the dataset.
 - **Hidden Layers:** Configurable number of layers using *ReLU activation function*.
 - **Output Layer:** Binary classification using a *Sigmoid activation function*.
 
-### **4.2. Optimization and Weight Initialization**
+### 4.2. Optimization and Weight Initialization
 
 - **Optimization Algorithm:** *Adam optimizer* with:
   - β₁ = 0.9
@@ -67,7 +72,7 @@ The dataset contains the following features related to cardiovascular diseases:
   - Learning Rate = 0.001
 - **Weight Initialization:** Using *Xavier* and *He* methods to prevent gradient vanishing.
 
-### **4.3. Training Process**
+### 4.3. Training Process
 
 - **Loss Function:** *Binary Cross Entropy (BCE)*.
 - **Forward and Backward Propagation:** Updating the model at each epoch during training.
@@ -75,9 +80,9 @@ The dataset contains the following features related to cardiovascular diseases:
 
 ---
 
-## **5. Results**
+## 📊 5. Results
 
-### **5.1. Performance Metrics**
+### 📈 5.1. Performance Metrics
 
 - **Accuracy:** *72.9%*
 - **F1 Score:** *0.727*
@@ -86,14 +91,14 @@ The dataset contains the following features related to cardiovascular diseases:
 
 - **Confusion Matrix:** Displays the model's classification accuracy (*True Positives, True Negatives, False Positives, False Negatives*).
 
-### **5.2. Visualizations**
+### 📉 5.2. Visualizations
 
 <img src="https://github.com/omerayvaz/ANN_Coursework/blob/main/Media/CorrelationMatrix.png" alt="Correlation Matrix" width="600">
 
 - **Training and Validation Losses:** Loss curves plotted across epochs.
 - **Correlation Matrix:** Demonstrates the relationships between features used in the model.
 
-### **5.3. Insights**
+### 💡 5.3. Insights
 
 - The ANN model demonstrated reasonable accuracy in predicting cardiovascular disease.
 - *Xavier and He weight initialization methods* effectively mitigated the gradient vanishing issue.
