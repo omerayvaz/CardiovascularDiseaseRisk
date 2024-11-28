@@ -12,7 +12,7 @@
 
 This project focuses on designing and implementing an Artificial Neural Network (ANN) model from scratch to accurately predict cardiovascular disease risk. For further details and to review the presentation in Turkish, click the link below:
 
-[📂**View the Turkish Presentation**](https://github.com/omerayvaz/ANN_Coursework/blob/main/Cardiovascular%20DiseaseRiskPredictionUsingArtificialNeuralNetworks.pdf)
+[📂**View the Turkish Presentation**](https://github.com/omerayvaz/ANN_Coursework/blob/main/CardiovascularDiseaseRiskPredictionUsingArtificialNeuralNetworks.pdf)
 
 
 ---
