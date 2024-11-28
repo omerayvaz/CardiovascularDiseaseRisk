@@ -86,10 +86,10 @@ costs = nn.train(X_train_transposed, y_train, X_val_transposed, y_val, epochs=30
 📩📞 *For communication, feel free to reach out through the social media links provided on **our GitHub profiles.***
 
 - **[Ömer Emircan Ayvaz](https://github.com/omerayvaz)**
-- **[Muhammet Eren Gür](https://github.com/Mali3215)**
+- **[Muhammet Eren Gür](https://github.com/MuhammetErenGur)**
 - **[Zeynep Aslı Erhan](https://github.com/zeynepaslierhan)**
 - **[Eren Sezer](https://github.com/Erensz)**
-- **[Ömer Faruk Ulusoy](https://github.com/omerulusoy41)**
 - **[Eren Çalbay](https://github.com/erencalbay)**
 - **[Fatih Özen](https://github.com/Fatihozn)**
-- **[Mehmet Ali Akdoğan](https://github.com/MuhammetErenGur)**
+- **[Mehmet Ali Akdoğan](https://github.com/Mali3215)**
+- **[Ömer Faruk Ulusoy](https://github.com/omerulusoy41)**
