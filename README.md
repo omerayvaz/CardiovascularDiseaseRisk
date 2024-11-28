@@ -17,7 +17,7 @@ This project focuses on designing and implementing an Artificial Neural Network 
 
 ---
 
-## 🛠️ Araçlar (Tools)
+## 🛠️ Tools
 
 The following tools and libraries were utilized in the development of this project:
 
@@ -30,6 +30,8 @@ The following tools and libraries were utilized in the development of this proje
 
 
 ## 📂 3. Dataset
+
+Dataset: [Cardiovascular-Disease-Dataset](https://www.kaggle.com/datasets/akshatshaw7/cardiovascular-disease-dataset) 
 
 ### 🔍 3.1. Dataset Features
 
