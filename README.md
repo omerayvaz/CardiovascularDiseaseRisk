@@ -106,13 +106,13 @@ The dataset contains the following features related to cardiovascular diseases:
 
 ---
 
-## **Proje Ekibi (Project Team)**
+## **Project Team**
 
-- **Ömer Emircan Ayvaz**
-- **Muhammet Eren Gür**
-- **Zeynep Aslı Erhan** *(zeynepaslierhan@gmail.com)*
-- **Eren Sezer**
-- **Ömer Faruk Ulusoy**
-- **Eren Çalbay**
-- **Fatih Özen**
-- **Mehmet Ali Akdoğan**
+- **[Ömer Emircan Ayvaz](https://www.linkedin.com/in/omer-e-ayvaz/)**
+- **[Muhammet Eren Gür](https://www.linkedin.com/in/muhammet-eren-g%C3%BCr-a88aba267/)**
+- **[Zeynep Aslı Erhan](https://www.linkedin.com/in/zeynepaslierhan/)**
+- **[Eren Sezer](https://www.linkedin.com/in/eren-sezer-2706791b7/)**
+- **[Ömer Faruk Ulusoy](https://www.linkedin.com/in/omer-ulusoy/)**
+- **[Eren Çalbay](https://www.linkedin.com/in/erencalbay/)**
+- **[Fatih Özen](https://www.linkedin.com/in/fatih-%C3%B6zen/)**
+- **[Mehmet Ali Akdoğan](https://www.linkedin.com/in/mehmet-ali-akdogan/)**
